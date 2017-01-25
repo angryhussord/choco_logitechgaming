@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>logitechgaming</id>
     <title>Logitech Gaming Software</title>
-    <version>8.88.30.11132016</version>
+    <version>8.90.117</version>
     <authors>http://gaming.logitech.com/developers</authors>
     <owners>angryhussord</owners>
     <summary>Lets you customize functions on Logitech gaming mice, keyboards, headsets, and select wheels.</summary>
