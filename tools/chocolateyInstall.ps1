@@ -3,8 +3,8 @@
 $packageName = 'logitechgaming'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)";
 $installerType = 'EXE'
-$url = 'https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_8.91.48_x86_Logitech.exe'
-$url64 = 'https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_8.91.48_x64_Logitech.exe'
+$url = 'https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_8.94.108_x86_Logitech.exe'
+$url64 = 'https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_8.94.108_x64_Logitech.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -15,9 +15,9 @@ $packageArgs = @{
   silentArgs    = '/S'
   validExitCodes= @(0)
   softwareName  = 'logitechgaming*'
-  checksum      = 'CC23A3CC5EF0CF69A6B14C21BD9006A12E17CEECE66A1C919434AF7C4F26CE60'
+  checksum      = '4A745E7D9F625655152450E94D26B3E9F404C7D30BEBA537E86991FDEDCA605E'
   checksumType  = 'sha256'
-  checksum64      = 'B9F7B2F20D48E0E75AF1AD11AC80EDF124156569EED0B9A564D5B9B844272BD7'
+  checksum64      = 'F9C20FC93FC9B26FCABCCDF7838613A447070345EE7F7E485E9B6EBC2E27046E'
   checksumType64  = 'sha256'
 };
 
